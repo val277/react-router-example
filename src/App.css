@@ -42,13 +42,14 @@ nav ul {
   flex-direction: row;
   justify-content: space-evenly;
   list-style: none;
-  a {
-    text-decoration: none;
-    color: #000;
-    &:hover,
-    &.active {
-      text-decoration: underline;
-    }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  &:hover,
+  &.active {
+    text-decoration: underline;
   }
 }
 
