@@ -1,7 +1,7 @@
 export default function Services() {
   return (
-    <>
-      <h1>Services Pages</h1>
+    <main>
+      <h1>Our Services</h1>
       <ul>
         <li>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
@@ -21,6 +21,6 @@ export default function Services() {
           accusantium doloremque amet neque alias.
         </li>
       </ul>
-    </>
+    </main>
   );
 }
