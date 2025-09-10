@@ -7,6 +7,7 @@ export default function Contact() {
         <input type="text" name="name" id="name" />
         <label htmlFor="message">Message</label>
         <textarea name="message" id="message"></textarea>
+        <input type="submit" value="Envoyer" />
       </form>
     </>
   );
