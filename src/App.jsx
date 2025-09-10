@@ -4,23 +4,23 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, NavLink } from "react-router-dom";
 
 function Nav() {
   return (
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <Link to="/services">Services</Link>
+          <NavLink to="/services">Services</NavLink>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
     </nav>
